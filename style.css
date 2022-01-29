@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono&display=swap');
+
+:root{
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 768px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgba(71, 13, 33, 0.5);
+    background-image: url("https://wallpaperaccess.com/full/2389930.jpg");
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+        
+}
+
+.header {
+    text-align: center;
+    color: #FFEDDB;
+    font-size: 1.2rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+#title {
+    margin-top: 0.5em;
+    margin-bottom: 0.2em;
+}
+
+.form {
+    background-color: #E3B7A0;
+    border-radius: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.1em;
+
+    display: flex;
+    justify-content: center;
+    font-size: 1.2em;
+    flex-direction: column;
+
+    margin-top: 1.5em;
+}
+
+.form > form > div {
+    margin : 1.1em;
+    display: flex;
+    flex-direction: column;
+}
+
+#name-label,
+#email-label,
+#number-label,
+option,
+p {
+    font-size: 1.5em;
+    margin-bottom: 0.2em;
+}
+
+.input-class{
+    height: 2em;
+    border-radius: 5px;
+    border-color: #D67D3E;
+}
+
+input {
+    height: 1.3rem;
+    padding: 0.2rem;
+}
+
+.checkbox > label,
+.radio> label {
+    display: flex;
+    font-size: 1.1rem;
+}
+
+.radio > label > input, 
+.checkbox > label > input {
+    margin-right: 0.5em;
+}
+
+#submit {
+    height: 2.5em;
+}
+
+
+
+
+

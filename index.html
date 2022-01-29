@@ -1,78 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
     <title>Document</title>
-</head>
+  </head>
 
-<body>
-
-    <header class="header">
+  <body>
+    
+      <header class="header">
         <h1 id="title">Welcome to Coffee Community Survey</h1>
         <p id="description">Always enjoy your time and your cup of Coffee</p>
-    </header>
+      </header>
 
-    <div class="form">
+
+      <div class="form">
         <form>
-            <div>
-                <label for="Name" id="name-label">Name</label>
-                <input type="text" name="Name" class="input-class" id="name" placeholder="Enter your Name here"
-                    required>
-            </div>
+          <div>
+            <label for="Name" id="name-label">Name</label>
+            <input
+              type="text"
+              name="Name"
+              class="input-class"
+              id="name"
+              placeholder="Enter your Name here"
+              required
+            />
+          </div>
 
-            <div>
-                <label for="Email" id="email-label">Email</label>
-                <input type="email" name="Email" id="email" class="input-class" placeholder="Enter your Email here"
-                    required>
-            </div>
+          <div>
+            <label for="Email" id="email-label">Email</label>
+            <input
+              type="email"
+              name="Email"
+              id="email"
+              class="input-class"
+              placeholder="Enter your Email here"
+              required
+            />
+          </div>
 
-            <div>
-                <label for="Age" id="number-label">Age (Optional)</label>
-                <input type="number" class="input-class" name="Age" min="1" max="99" placeholder="Enter your Age here"
-                    required>
-            </div>
+          <div>
+            <label for="Age" id="number-label">Age (Optional)</label>
+            <input
+              type="number"
+              class="input-class"
+              name="Age"
+              min="1"
+              max="99"
+              placeholder="Enter your Age here"
+              required
+            />
+          </div>
 
-            <div>
-                <p>Which option describes your current role?</p>
-                <select name="role" id="dropdown" class="input-class">
-                    <option value="" selected disabled>Select an option</option>
-                    <option value="">Student</option>
-                    <option value="">Part Time Worker</option>
-                    <option value="">Full Time Worker</option>
-                    <option value="">Jobless</option>
-                    <option value="">Prefer not to say</option>
-                </select>
-            </div>
+          <div>
+            <p>Which option describes your current role?</p>
+            <select name="role" id="dropdown" class="input-class">
+              <option value="" selected disabled>Select an option</option>
+              <option value="">Student</option>
+              <option value="">Part Time Worker</option>
+              <option value="">Full Time Worker</option>
+              <option value="">Jobless</option>
+              <option value="">Prefer not to say</option>
+            </select>
+          </div>
 
-            <div class="radio">
-                <p>Would you recommend Coffee to your friend?</p>
-                <label><input type="radio" value="">Definitely</label>
-                <label><input type="radio" value="">Maybe</label>
-                <label><input type="radio" value="">Not Sure</label>
-            </div>
+          <div class="radio">
+            <p>Would you recommend Coffee to your friend?</p>
+            <label><input type="radio" value="" />Definitely</label>
+            <label><input type="radio" value="" />Maybe</label>
+            <label><input type="radio" value="" />Not Sure</label>
+          </div>
 
-            <div class="checkbox">
-                <p>Which coffee brand you ever heard of?</p>
-                <label><input type="checkbox">Star Coffee</label>
-                <label><input type="checkbox">Coffee Power</label>
-                <label><input type="checkbox">Coffee Latte 0.2</label>
-                <label><input type="checkbox">Cafe a Lot</label>
-            </div>
+          <div class="checkbox">
+            <p>Which coffee brand you ever heard of?</p>
+            <label><input type="checkbox" />Star Coffee</label>
+            <label><input type="checkbox" />Coffee Power</label>
+            <label><input type="checkbox" />Coffee Latte 0.2</label>
+            <label><input type="checkbox" />Cafe a Lot</label>
+          </div>
 
-            <div class="submit">
-                <button type="submit" id="submit" class="input-class">Submit</button>
-            </div>
-
-
+          <div class="submit">
+            <button type="submit" id="submit" class="input-class">
+              Submit
+            </button>
+          </div>
         </form>
-
     </div>
-</body>
-
+  </body>
 </html>
